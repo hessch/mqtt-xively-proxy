@@ -6,6 +6,10 @@
 # v0.6 - allow for multiple variables in json messages, 2016-06-19
 # v0.5 - map multiple mqtt topics to xively feeds, 2016-06-12
 
+# xively-proxy-multi expects to receive simple json encoded key-value
+# messages, e.g. { 'key1': value1, 'key2':, value2, ... }
+
+
 
 import paho.mqtt.client as mqtt
 import xively
